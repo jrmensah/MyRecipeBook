@@ -18,14 +18,42 @@
 <img src="https://images.unsplash.com/photo-1495546968767-f0573cca821e?auto=format&fit=crop&w=1489&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D" id="bg" alt="Recipe"/>
 
 <nav class = "navbar-navbar-inverse">
-    < class="container-fluid">
-        <!--<div class="col-md-12">-->
-            <!--<h1 class="recipebook">My Recipe Book</h1>-->
-            <!--<div class="col-md-12"><h3 class="recipebook">My Recipe Book-->
-            <!--</h3></div>-->
-            <!--<div class="col-md-8"></div>-->
-        <!--</div>-->
+    <div class="container-fluid">
         <div class="navbar-header">
+            <h1 class="navbar-brand">My Recipe Book</h1>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="homepage.html">Home</a> </li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="recipelist.html">Recipes
+            <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="crabcakerecipe.html">Crab Cakes</a></li>
+                    <li><a href="makhroudsrecipe.html">Makhrouds</a></li>
+                    <li><a href="eggsaucerecipe.html">Egg Sauce</a></li>
+                    <li><a href="golabjamunrecipe.html">Golab Jamun</a></li>
+                    <li><a href="injerarecipe.html">Injera</a></li>
+                    <li><a href="wingsrecipe.html">Sichuan Chicken Wings</a></li>
+                </ul>
+            </li>
+            <li><a href="recipelist.html">Gallery</a> </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <h3>My Recipe Book</h3>
+    <p> Welcome to my Recipe Book, where you get to choose and read about delicious
+        meals and dishes through my collection of recipes! Enjoy!</p>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
             <!--<button type="button" class="navbar-toggle collapsed"-->
                     <!--data-toggle="collapse" data-target="#my-collapsible-navbar"-->
                     <!--aria-expanded="false">-->
@@ -33,71 +61,49 @@
                 <!--<span class="glyphicon glyphicon-envelope"></span>-->
             <!--</button>-->
 
-            <a class="navbar-brand">My Recipe Book</a>
-        </div>
-        < class="collapse navbar-collapse" id="my-collapsible-navbar">
-            <li class="active"><a href="#">Recipes<span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Recipes</a></li>
-        <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-               aria-expanded="false">Recipes<span class="caret"></span></a>
-            <ul class="dropdown menu"></ul>
-                <li><a href="homepage.html">Home</a></li>
-                <li><a href="crabcakerecipe.html">Crab Cakes</a></li>
-                <li><a href="injerarecipe.html">Injera</a></li>
-                <li><a href="makhroudsrecipe.html">Makhrouds</a></li>
-                <li><a href="eggsaucerecipe.html">Egg Sauce</a></li>
-                <li><a href="wingsrecipe.html">Wings</a></li>
-                <li><a href="golabjamunrecipe.html">Golab Jamun</a></li>
-                <li><a href="recipelist.html">Gallery</a></li>
-        </ul>
+            <!--<a class="navbar-brand">My Recipe Book</a>-->
+        <!--</ul>-->
+        <!--<div class="collapse navbar-collapse" id="my-collapsible-navbar">-->
+            <!--&lt;!&ndash;<li class="active"><a href="#">Recipes<span class="sr-only">(current)</span></a></li>&ndash;&gt;-->
+            <!--&lt;!&ndash;<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"&ndash;&gt;-->
+               <!--&lt;!&ndash;aria-expanded="false">Recipes<span class="caret"></span></a>&ndash;&gt;-->
+            <!--<ul class="nav navbar-nav"></ul>-->
+                <!--<li><a href="homepage.html">Home</a></li>-->
+                <!--<li><a href="crabcakerecipe.html">Crab Cakes</a></li>-->
+                <!--<li><a href="injerarecipe.html">Injera</a></li>-->
+                <!--<li><a href="makhroudsrecipe.html">Makhrouds</a></li>-->
+                <!--<li><a href="eggsaucerecipe.html">Egg Sauce</a></li>-->
+                <!--<li><a href="wingsrecipe.html">Wings</a></li>-->
+                <!--<li><a href="golabjamunrecipe.html">Golab Jamun</a></li>-->
 
-        </li>
-    </ul>
+        <!--</ul>-->
 
-    <form class="nav-form navbar-left">
-        <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn-btn-default">Submit</button>
-    </form>
+        <!--</li>-->
+    <!--</ul>-->
 
-            <ul class="nav navbar-nav navbar-left">
-                <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                aria-expanded="false">Recipes<span class="caret"></span></a></li>
+            <!--<ul class="nav navbar-nav navbar-left">-->
+                <!--<li><a href="homepage.html">Home</a> </li>-->
+                <!--<li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"-->
+                <!--aria-expanded="false">Recipes<span class="caret"></span></a></li>-->
+                <!--<li><a href="recipelist.html">Gallery</a></li>-->
 
-                <ul class="dropdown-menu">
-            <li><a href="homepage.html">Home</a></li>
-            <li><a href="crabcakerecipe.html">Crab Cakes</a></li>
-            <li><a href="injerarecipe.html">Injera</a></li>
-            <li><a href="makhroudsrecipe.html">Makhrouds</a></li>
-            <li><a href="eggsaucerecipe.html">Egg Sauce</a></li>
-            <li><a href="wingsrecipe.html">Wings</a></li>
-            <li><a href="golabjamunrecipe.html">Golab Jamun</a></li>
-            <li><a href="recipelist.html">Gallery</a></li>
-        </ul>
-            </ul>
-    </div>
-</nav>
-<header class="masthead">
-    <h1 class="text-center">My Recipe Book</h1>
-</header>
-<script src="https://code.jquery.com/jquery-3.2.1.js"
-        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-        crossorigin="anonymous"></script>
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+                <!--<ul class="dropdown-menu">-->
+            <!--<li><a href="homepage.html">Home</a></li>-->
+            <!--<li><a href="crabcakerecipe.html">Crab Cakes</a></li>-->
+            <!--<li><a href="injerarecipe.html">Injera</a></li>-->
+            <!--<li><a href="makhroudsrecipe.html">Makhrouds</a></li>-->
+            <!--<li><a href="eggsaucerecipe.html">Egg Sauce</a></li>-->
+            <!--<li><a href="wingsrecipe.html">Wings</a></li>-->
+            <!--<li><a href="golabjamunrecipe.html">Golab Jamun</a></li>-->
+            <!--<li><a href="recipelist.html">Gallery</a></li>-->
+        <!--</ul>-->
+            <!--</ul>-->
+    <!--</div>-->
+<!--</nav>-->
 
 
-<p> Welcome to my Recipe Book, where you get to choose and read about delicious
-meals and dishes through my collection of recipes! Enjoy!</p>
 
 
-<div class="container">
-    <div class="col-md-12">
 
-    </div>
-</div>
 
-</body>
-</html>
+
