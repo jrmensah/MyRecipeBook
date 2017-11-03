@@ -12,7 +12,13 @@
 
 h1{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: white;
+    color: brown;
+}
+
+p{
+    font-family: Arial;
+    color:brown;
+    font-size:24px;
 }
 
 .navbar-brand
