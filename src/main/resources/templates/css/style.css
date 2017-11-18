@@ -10,7 +10,8 @@
     }
 
 
-h1{
+
+h1,h2{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: brown;
 }
@@ -28,4 +29,5 @@ p{
     color: white;
 
 }
+
 
